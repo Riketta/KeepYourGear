@@ -49,7 +49,7 @@ Deliberate trade-offs that keep the mod balanced:
 
 ## Technical notes
 
-- Requires RimWorld 1.5 or 1.6 and the [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077) mod.
+- Requires RimWorld 1.6 and the [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077) mod.
 - Pure Harmony: no def changes and nothing saved to the game state, safe to add and
   remove at any time.
 - Pawns are marked only for the duration of the vanilla calls that would strip them
@@ -63,7 +63,8 @@ Deliberate trade-offs that keep the mod balanced:
 
 ## Build from source
 
-Requires the .NET SDK.
+Requires the .NET SDK. Build the Release configuration for the dll you ship - a plain
+`dotnet build` defaults to Debug:
 
 ```
 cd Source/KeepYourGear
@@ -75,4 +76,4 @@ Steam Workshop location
 (`...\steamapps\workshop\content\294100\2009463077\Current\Assemblies`).
 
 The output lands in `Assemblies/KeepYourGear.dll`; the whole mod folder can be
-junctioned or copied into the game's `Mods` directory.
+copied or symlinked into the game's `Mods` directory.
