@@ -7,12 +7,17 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Keep weapon and/or inventory items when a pawn is downed instead of throwing everything on the ground.
+  <description>Keep weapon and/or inventory items when a pawn is downed instead of throwing everything on the ground - for colonists and enemies alike, each side with its own options.
 
-Successor of "Do Not Drop Weapon" and "Where Is My Weapon?" with better implementation.
+Features:
+- Downed pawns keep weapon and inventory until they recover.
+- Destroyed hands no longer disarm a pawn.
+- A kidnapped pawn drops its gear where it was grabbed, so it stays recoverable.
+- Optional: dead pawns keep their gear on the body.
 
-Check mod settings.
-There you can find separate options for the player's colonists, enemies, inventory and weapons.
+Stripping, capturing, selling and caravans keep their vanilla behavior.
+
+Successor of "Do Not Drop Weapon" and "Where Is My Weapon?".
 
 Source code &amp; details: https://github.com/Riketta/KeepYourGear</description>
   <modDependencies>
