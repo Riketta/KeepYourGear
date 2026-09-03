@@ -41,7 +41,7 @@ namespace KeepYourGear
         public const string PackageId = "Riketta.ReequipWeaponUponRecovery";
 
         /// <summary>Kept in sync with About/About.xml modVersion.</summary>
-        public const string Version = "2.0";
+        public const string Version = "2.0.0";
 
         public static KeepYourGearSettings Settings;
 
@@ -72,7 +72,7 @@ namespace KeepYourGear
             }
             catch (Exception e)
             {
-                Log.Error("[KeepYourGear] Patch " + patchClass.Name + " could not be applied (game update?). " + e.Message);
+                Log.Error("[KeepYourGear] Patch " + patchClass.Name + " could not be applied (game update?). " + e);
             }
         }
 

@@ -14,7 +14,11 @@ namespace KeepYourGear
     /// restoring the vanilla outcome. Friendly carrying - rescue to bed, prisoner
     /// transport - is untouched.
     /// </summary>
-    [HarmonyPatch(typeof(Pawn_CarryTracker), "TryStartCarry")]
+    /// <remarks>
+    /// TryStartCarry is overloaded ((Thing) and (Thing, int, bool)); the argument types
+    /// must be pinned or Harmony cannot resolve the target and the patch is skipped.
+    /// </remarks>
+    [HarmonyPatch(typeof(Pawn_CarryTracker), "TryStartCarry", new Type[] { typeof(Thing) })]
     internal static class Patch_Pawn_CarryTracker_TryStartCarry
     {
         private const string Tag = "Pawn_CarryTracker.TryStartCarry";
