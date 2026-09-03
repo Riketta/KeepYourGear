@@ -71,9 +71,5 @@ cd Source/KeepYourGear
 dotnet build -c Release -p:RimWorldDir="C:\Path\To\RimWorld"
 ```
 
-Add `-p:HarmonyDir="C:\Path\To\Harmony"` if Harmony is not installed at the default
-Steam Workshop location
-(`...\steamapps\workshop\content\294100\2009463077\Current\Assemblies`).
-
 The output lands in `Assemblies/KeepYourGear.dll`; the whole mod folder can be
 copied or symlinked into the game's `Mods` directory.
