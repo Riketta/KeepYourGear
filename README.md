@@ -25,8 +25,14 @@ per settings. Everything else keeps vanilla behavior:
 - **No global state** - all decisions are pawn-keyed and cleaned up in Harmony
   finalizers, so an exception mid-drop can never leak onto another pawn.
 
-Kept gear on dead pawns stays on the corpse: strip the body to take it, or it is
-destroyed when the corpse rots away.
+## Things to keep in mind
+
+Deliberate trade-offs the mod makes to stay balanced:
+
+- A downed enemy who recovers wakes up still armed - keeping gear means keeping it for
+  everyone, including your foes.
+- Kept gear on dead pawns stays on the corpse: strip the body to take it, or it is
+  destroyed when the corpse rots away.
 
 ## Settings
 Check mod settings.  
