@@ -46,10 +46,14 @@ namespace KeepYourGear
             // Patch each class separately: a game update that renames one target must
             // degrade to "that vanilla behavior stays", never break the other patch.
             Harmony harmony = new Harmony(PackageId);
-            PatchSafe(harmony, typeof(Patch_Pawn_DropAndForbidEverything));
+            PatchSafe(harmony, typeof(Patch_Pawn_HealthTracker_MakeDowned));
+            PatchSafe(harmony, typeof(Patch_Pawn_Kill));
+            PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_Notify_PawnSpawned));
             PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_DropAllEquipment));
             PatchSafe(harmony, typeof(Patch_Pawn_InventoryTracker_DropAllNearPawn));
-            PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_Notify_PawnSpawned));
+            PatchSafe(harmony, typeof(Patch_Pawn_HealthTracker_CheckForStateChange));
+            PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_TryDropEquipment));
+            PatchSafe(harmony, typeof(Patch_Pawn_CarryTracker_TryStartCarry));
             Log.Message("[KeepYourGear] loaded (debugLogging="
                 + Settings.debugLogging.ToString().ToLowerInvariant() + ").");
         }

@@ -3,23 +3,23 @@
   <KeepYourGear.SettingsCategory>Reequip Weapon Upon Recovery</KeepYourGear.SettingsCategory>
 
   <KeepYourGear.KeepColonistsWeapons>Keep colonists' weapons</KeepYourGear.KeepColonistsWeapons>
-  <KeepYourGear.KeepColonistsWeaponsTip>Keep weapons of player controlled pawns (colonists) with them when they are downed.</KeepYourGear.KeepColonistsWeaponsTip>
+  <KeepYourGear.KeepColonistsWeaponsTip>Keep weapons with colonists, slaves and colony animals of the player faction when they are downed or lose the use of their hands. A kidnapped colonist drops their gear where they were grabbed.</KeepYourGear.KeepColonistsWeaponsTip>
 
   <KeepYourGear.KeepColonistsInventory>Keep colonists' inventory</KeepYourGear.KeepColonistsInventory>
-  <KeepYourGear.KeepColonistsInventoryTip>Keep inventory items (non-weapons and non-equipment) of player controlled pawns (colonists) with them when they are downed.</KeepYourGear.KeepColonistsInventoryTip>
+  <KeepYourGear.KeepColonistsInventoryTip>Keep inventory items (including cargo on colony pack animals) with the player faction when they are downed. Stripping still works; kidnapping drops the gear where the pawn was grabbed.</KeepYourGear.KeepColonistsInventoryTip>
 
   <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>Keep weapons and inventory of dead colonists</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>
-  <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>Apply the two colonist options above also when a colonist dies instead of dropping everything. The weapons and inventory options decide what is kept.</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>
+  <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>Keep weapons and inventory on the body when a colonist dies, instead of dropping them on the ground - independent of the two options above. Strip the body to take the gear; it is destroyed when the corpse rots away.</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>
 
   <KeepYourGear.KeepOtherPawnsWeapons>Keep other pawns' weapons</KeepYourGear.KeepOtherPawnsWeapons>
-  <KeepYourGear.KeepOtherPawnsWeaponsTip>Keep weapons of non-player pawns (e.g. raiders) with them when they are downed.</KeepYourGear.KeepOtherPawnsWeaponsTip>
+  <KeepYourGear.KeepOtherPawnsWeaponsTip>Keep weapons with non-player pawns (raiders, visitors, wild people) when they are downed or lose the use of their hands. Capturing them drops the gear where they were picked up; rescue by their own faction carries the gear away.</KeepYourGear.KeepOtherPawnsWeaponsTip>
 
   <KeepYourGear.KeepOtherPawnsInventory>Keep other pawns' inventory</KeepYourGear.KeepOtherPawnsInventory>
-  <KeepYourGear.KeepOtherPawnsInventoryTip>Keep inventory items (non-weapons and non-equipment) of non-player pawns with them when they are downed.</KeepYourGear.KeepOtherPawnsInventoryTip>
+  <KeepYourGear.KeepOtherPawnsInventoryTip>Keep inventory items with non-player pawns when they are downed. Their carried goods no longer scatter on the ground - strip them, or capture them, to take the items.</KeepYourGear.KeepOtherPawnsInventoryTip>
 
   <KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawns>Keep weapons and inventory of other dead pawns</KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawns>
-  <KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>Apply the two non-player pawn options above also when such a pawn dies instead of dropping everything. The weapons and inventory options decide what is kept. Overpowered against tribal raids.</KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>
+  <KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>Keep weapons and inventory on the body when a non-player pawn dies, instead of dropping them on the ground - independent of the two options above. Strip the body to take the gear; it is destroyed when the corpse rots away.</KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>
 
   <KeepYourGear.DebugLogging>Debug logging</KeepYourGear.DebugLogging>
-  <KeepYourGear.DebugLoggingTip>Log every prevented or allowed drop to the game log: pawn, weapon, faction and the decision taken. For verifying behavior and bug reports. Dev mode only.</KeepYourGear.DebugLoggingTip>
+  <KeepYourGear.DebugLoggingTip>Log every kept and vanilla drop decision to the game log: pawn, caller and decision. For verifying behavior and bug reports. Dev mode only.</KeepYourGear.DebugLoggingTip>
 </LanguageData>
