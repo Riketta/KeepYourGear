@@ -4,7 +4,7 @@
 	<author>Riketta</author>
 	<packageId>Riketta.ReequipWeaponUponRecovery</packageId>
 	<modVersion IgnoreIfNoMatchingField="True">2.0</modVersion>
-	<supportedVersions><li>1.5</li></supportedVersions>
+	<supportedVersions><li>1.5</li><li>1.6</li></supportedVersions>
 	<description>
 Keep weapon and/or inventory items when a pawn is downed instead of throwing everything on the ground.
 
