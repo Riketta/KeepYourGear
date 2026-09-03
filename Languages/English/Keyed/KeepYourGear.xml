@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KeepYourGear.SettingsCategory>Reequip Weapon Upon Recovery</KeepYourGear.SettingsCategory>
+
+  <KeepYourGear.KeepColonistsWeapons>Keep colonists' weapons</KeepYourGear.KeepColonistsWeapons>
+  <KeepYourGear.KeepColonistsWeaponsTip>Keep weapons of player controlled pawns (colonists) with them when they are downed.</KeepYourGear.KeepColonistsWeaponsTip>
+
+  <KeepYourGear.KeepColonistsInventory>Keep colonists' inventory</KeepYourGear.KeepColonistsInventory>
+  <KeepYourGear.KeepColonistsInventoryTip>Keep inventory items (non-weapons and non-equipment) of player controlled pawns (colonists) with them when they are downed.</KeepYourGear.KeepColonistsInventoryTip>
+
+  <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>Keep weapons and inventory of dead colonists</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>
+  <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>Apply the two colonist options above also when a colonist dies instead of dropping everything. The weapons and inventory options decide what is kept.</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>
+
+  <KeepYourGear.KeepOtherPawnsWeapons>Keep other pawns' weapons</KeepYourGear.KeepOtherPawnsWeapons>
+  <KeepYourGear.KeepOtherPawnsWeaponsTip>Keep weapons of non-player pawns (e.g. raiders) with them when they are downed.</KeepYourGear.KeepOtherPawnsWeaponsTip>
+
+  <KeepYourGear.KeepOtherPawnsInventory>Keep other pawns' inventory</KeepYourGear.KeepOtherPawnsInventory>
+  <KeepYourGear.KeepOtherPawnsInventoryTip>Keep inventory items (non-weapons and non-equipment) of non-player pawns with them when they are downed.</KeepYourGear.KeepOtherPawnsInventoryTip>
+
+  <KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawns>Keep weapons and inventory of other dead pawns</KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawns>
+  <KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>Apply the two non-player pawn options above also when such a pawn dies instead of dropping everything. The weapons and inventory options decide what is kept. Overpowered against tribal raids.</KeepYourGear.KeepWeaponsAndInventoryOfOtherDeadPawnsTip>
+
+  <KeepYourGear.DebugLogging>Debug logging</KeepYourGear.DebugLogging>
+  <KeepYourGear.DebugLoggingTip>Log every prevented or allowed drop to the game log: pawn, weapon, faction and the decision taken. For verifying behavior and bug reports. Dev mode only.</KeepYourGear.DebugLoggingTip>
+</LanguageData>

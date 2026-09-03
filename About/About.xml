@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ModMetaData>
 	<name>Reequip Weapon Upon Recovery</name>
 	<author>Riketta</author>
 	<packageId>Riketta.ReequipWeaponUponRecovery</packageId>
-    <modVersion IgnoreIfNoMatchingField="True">1.4</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.5</modVersion>
 	<supportedVersions><li>1.5</li></supportedVersions>
 	<description>
 Keep weapon and/or inventory items when a pawn is downed instead of throwing everything on the ground.
@@ -15,20 +14,19 @@ Check mod settings.
 There you can find separate options for the player's colonists, enemies, inventory and weapons.
 
 Why such a misleading name?
-I started this project with the intention of simply reimplementing existing mods and named it accordingly, but it ended up being implemented much differently.  
+I started this project with the intention of simply reimplementing existing mods and named it accordingly, but it ended up being implemented much differently.
 
 Source: https://github.com/Riketta/ReequipWeaponUponRecovery.
-    </description>
+	</description>
 
-    <modDependencies>
-        <li>
-            <packageId>UnlimitedHugs.HugsLib</packageId>
-            <displayName>HugsLib</displayName>
-            <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
-        </li>
-    </modDependencies>
-    <loadAfter>
-        <li>UnlimitedHugs.HugsLib</li>
-    </loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopURL>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopURL>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
 </ModMetaData>
