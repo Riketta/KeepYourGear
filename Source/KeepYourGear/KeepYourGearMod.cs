@@ -38,6 +38,9 @@ namespace KeepYourGear
     {
         public const string PackageId = "Riketta.ReequipWeaponUponRecovery";
 
+        /// <summary>Kept in sync with About/About.xml modVersion.</summary>
+        public const string Version = "2.0";
+
         public static KeepYourGearSettings Settings;
 
         public KeepYourGearMod(ModContentPack content) : base(content)
@@ -54,7 +57,7 @@ namespace KeepYourGear
             PatchSafe(harmony, typeof(Patch_Pawn_HealthTracker_CheckForStateChange));
             PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_TryDropEquipment));
             PatchSafe(harmony, typeof(Patch_Pawn_CarryTracker_TryStartCarry));
-            Log.Message("[KeepYourGear] loaded (debugLogging="
+            Log.Message("[KeepYourGear] v" + Version + " loaded (debugLogging="
                 + Settings.debugLogging.ToString().ToLowerInvariant() + ").");
         }
 
