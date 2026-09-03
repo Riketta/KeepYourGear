@@ -3,7 +3,7 @@
   <name>Keep Your Gear</name>
   <author>Riketta</author>
   <packageId>Riketta.ReequipWeaponUponRecovery</packageId>
-  <modVersion IgnoreIfNoMatchingField="True">2.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">2.0.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
