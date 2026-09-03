@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <KeepYourGear.SettingsCategory>Reequip Weapon Upon Recovery</KeepYourGear.SettingsCategory>
+  <KeepYourGear.SettingsCategory>Keep Your Gear</KeepYourGear.SettingsCategory>
 
   <KeepYourGear.KeepColonistsWeapons>Keep colonists' weapons</KeepYourGear.KeepColonistsWeapons>
   <KeepYourGear.KeepColonistsWeaponsTip>Keep weapons with colonists, slaves and colony animals of the player faction when they are downed or lose the use of their hands. A kidnapped colonist drops their gear where they were grabbed.</KeepYourGear.KeepColonistsWeaponsTip>

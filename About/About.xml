@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Reequip Weapon Upon Recovery</name>
+	<name>Keep Your Gear</name>
 	<author>Riketta</author>
 	<packageId>Riketta.ReequipWeaponUponRecovery</packageId>
 	<modVersion IgnoreIfNoMatchingField="True">2.0</modVersion>
@@ -13,10 +13,7 @@ Successor of "Do Not Drop Weapon" and "Where Is My Weapon?" with better implemen
 Check mod settings.
 There you can find separate options for the player's colonists, enemies, inventory and weapons.
 
-Why such a misleading name?
-I started this project with the intention of simply reimplementing existing mods and named it accordingly, but it ended up being implemented much differently.
-
-Source: https://github.com/Riketta/ReequipWeaponUponRecovery.
+Source: https://github.com/Riketta/KeepYourGear.
 	</description>
 
 	<modDependencies>

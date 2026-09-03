@@ -36,6 +36,8 @@ namespace KeepYourGear
 
     public class KeepYourGearMod : Mod
     {
+        /// <summary>Original package id, kept so the Steam Workshop item and existing
+        /// installs keep their identity through the rename to Keep Your Gear.</summary>
         public const string PackageId = "Riketta.ReequipWeaponUponRecovery";
 
         /// <summary>Kept in sync with About/About.xml modVersion.</summary>

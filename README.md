@@ -1,4 +1,4 @@
-# Reequip Weapon Upon Recovery
+# Keep Your Gear
 ![Preview](About/Preview.png)
 
 Keep weapon and inventory with a pawn when it is downed instead of throwing everything

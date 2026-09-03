@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Configuration>
-  <Title>Reequip Weapon Upon Recovery</Title>
+  <Title>Keep Your Gear</Title>
   <Excluded>
     <exclude>.git</exclude>
     <exclude>Source</exclude>
