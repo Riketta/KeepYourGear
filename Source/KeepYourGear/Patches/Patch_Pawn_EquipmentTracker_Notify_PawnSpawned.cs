@@ -18,9 +18,14 @@ namespace KeepYourGear
         public static void Prefix(Pawn_EquipmentTracker __instance)
         {
             Pawn pawn = __instance.pawn;
-            if (pawn != null && GlobalState.ShouldKeepWeapon(pawn, dead: false))
+            bool keepWeapon = pawn != null && GlobalState.ShouldKeepWeapon(pawn, dead: false);
+            if (keepWeapon)
             {
                 GlobalState.KeepWeapon.Add(pawn);
+            }
+            if (GlobalState.Debug)
+            {
+                DebugLog.Log($"[Pawn_EquipmentTracker.Notify_PawnSpawned] Pawn \"{GlobalState.PawnName(pawn)}\" spawned; marked: weapon={keepWeapon}.");
             }
         }
 

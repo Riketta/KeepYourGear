@@ -15,7 +15,7 @@
   <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>Keep weapons and inventory on the body when a colonist dies, instead of dropping them on the ground - independent of the two options above. Strip the body to take the gear; it is destroyed when the corpse rots away.</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>
 
   <KeepYourGear.KeepOtherPawnsWeapons>Keep other pawns' weapons</KeepYourGear.KeepOtherPawnsWeapons>
-  <KeepYourGear.KeepOtherPawnsWeaponsTip>Keep weapons with non-player pawns (raiders, visitors, wild people) when they are downed or lose the use of their hands. Capturing them drops the gear where they were picked up; rescue by their own faction carries the gear away.</KeepYourGear.KeepOtherPawnsWeaponsTip>
+  <KeepYourGear.KeepOtherPawnsWeaponsTip>Keep weapons with non-player pawns (raiders, visitors, wild people) when they are downed or lose the use of their hands. Capturing them drops the gear - right at the pickup spot if they were hostile; rescue by their own faction carries the gear away.</KeepYourGear.KeepOtherPawnsWeaponsTip>
 
   <KeepYourGear.KeepOtherPawnsInventory>Keep other pawns' inventory</KeepYourGear.KeepOtherPawnsInventory>
   <KeepYourGear.KeepOtherPawnsInventoryTip>Keep inventory items with non-player pawns when they are downed. Their carried goods no longer scatter on the ground - strip them, or capture them, to take the items.</KeepYourGear.KeepOtherPawnsInventoryTip>
