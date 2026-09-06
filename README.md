@@ -13,7 +13,9 @@ Downed pawns keep their weapon and inventory until they recover - colonists and
 enemies alike, each side with its own options. Everything else works like vanilla:
 
 - Stripping always works - on downed pawns, prisoners and corpses.
-- Capturing or selling a pawn drops its gear, exactly like vanilla.
+- Capturing enemies or selling a pawn drops its gear, exactly like vanilla.
+- Arrested colonists keep their gear while imprisoned and still have it when released
+  (optional, on by default).
 - A kidnapped pawn drops its gear where it was grabbed, so it stays recoverable
   instead of leaving the map with the kidnapper.
 - Destroyed hands no longer disarm a pawn: the weapon stays equipped and is usable
@@ -25,7 +27,8 @@ enemies alike, each side with its own options. Everything else works like vanill
 
 Separate options for colonists and for other pawns, each covering weapons and
 inventory, on downed and on death. The "dead" options work standalone, so a pawn can
-drop everything when downed but keep it on death, or the other way around. Colony
+drop everything when downed but keep it on death, or the other way around. One more
+option keeps the gear of your own arrested colonists while they are imprisoned. Colony
 animals and slaves count as colonists; prisoners and visitors count as other pawns.
 
 ## Things to keep in mind

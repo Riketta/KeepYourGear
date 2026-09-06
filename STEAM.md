@@ -13,11 +13,12 @@ Stripping, capturing, selling and caravans keep their vanilla behavior.
 [h3]What it does[/h3]
 [list][*]Downed pawns - colonists, raiders, animals - keep weapon and inventory until they recover, or die with it on the body.
 [*]A weapon stays equipped when the pawn loses the use of its hands; it is usable again once the pawn can hold things.
+[*]Your own arrested colonists keep their gear while imprisoned - for example to end a mental break - and still have it when released.
 [*]A kidnapped pawn drops its gear where it was grabbed, so it stays recoverable.
 [*]Pawns that spawn downed - rescued allies, quest survivors - keep their weapon too.[/list]
 
 [h3]Settings[/h3]
-Separate options for colonists and for other pawns, each covering weapons and inventory, on downed and on death. The "dead" options work standalone: a pawn can drop everything when downed but keep it on death, or the other way around. Colony animals and slaves count as colonists; prisoners and visitors count as other pawns.
+Separate options for colonists and for other pawns, each covering weapons and inventory, on downed and on death, plus one for the gear of your own imprisoned colonists. The "dead" options work standalone: a pawn can drop everything when downed but keep it on death, or the other way around. Colony animals and slaves count as colonists; prisoners and visitors count as other pawns.
 
 [h3]Things to keep in mind[/h3]
 Deliberate trade-offs that keep the mod balanced:

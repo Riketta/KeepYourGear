@@ -11,6 +11,8 @@ namespace KeepYourGear
 
         public bool keepColonistsInventory = true;
 
+        public bool keepGearOfImprisonedColonists = true;
+
         public bool keepWeaponsAndInventoryOfDeadColonists = true;
 
         public bool keepOtherPawnsWeapons = true;
@@ -26,6 +28,7 @@ namespace KeepYourGear
             base.ExposeData();
             Scribe_Values.Look(ref keepColonistsWeapons, "keepColonistsWeapons", true);
             Scribe_Values.Look(ref keepColonistsInventory, "keepColonistsInventory", true);
+            Scribe_Values.Look(ref keepGearOfImprisonedColonists, "keepGearOfImprisonedColonists", true);
             Scribe_Values.Look(ref keepWeaponsAndInventoryOfDeadColonists, "keepWeaponsAndInventoryOfDeadColonists", true);
             Scribe_Values.Look(ref keepOtherPawnsWeapons, "keepOtherPawnsWeapons", true);
             Scribe_Values.Look(ref keepOtherPawnsInventory, "keepOtherPawnsInventory", true);
@@ -58,6 +61,7 @@ namespace KeepYourGear
             PatchSafe(harmony, typeof(Patch_Pawn_InventoryTracker_DropAllNearPawn));
             PatchSafe(harmony, typeof(Patch_Pawn_HealthTracker_CheckForStateChange));
             PatchSafe(harmony, typeof(Patch_Pawn_EquipmentTracker_TryDropEquipment));
+            PatchSafe(harmony, typeof(Patch_Pawn_GuestTracker_SetGuestStatus));
             PatchSafe(harmony, typeof(Patch_Pawn_CarryTracker_TryStartCarry));
             Log.Message("[KeepYourGear] v" + Version + " loaded (debugLogging="
                 + Settings.debugLogging.ToString().ToLowerInvariant() + ").");
@@ -87,6 +91,7 @@ namespace KeepYourGear
             list.Begin(inRect);
             list.CheckboxLabeled("KeepYourGear.KeepColonistsWeapons".Translate(), ref Settings.keepColonistsWeapons, "KeepYourGear.KeepColonistsWeaponsTip".Translate());
             list.CheckboxLabeled("KeepYourGear.KeepColonistsInventory".Translate(), ref Settings.keepColonistsInventory, "KeepYourGear.KeepColonistsInventoryTip".Translate());
+            list.CheckboxLabeled("KeepYourGear.KeepGearOfImprisonedColonists".Translate(), ref Settings.keepGearOfImprisonedColonists, "KeepYourGear.KeepGearOfImprisonedColonistsTip".Translate());
             list.Gap(12f);
             list.CheckboxLabeled("KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists".Translate(), ref Settings.keepWeaponsAndInventoryOfDeadColonists, "KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip".Translate());
             list.Gap(12f);

@@ -12,6 +12,7 @@
 Features:
 - Downed pawns keep weapon and inventory until they recover.
 - Destroyed hands no longer disarm a pawn.
+- Arrested colonists keep their gear while imprisoned.
 - A kidnapped pawn drops its gear where it was grabbed, so it stays recoverable.
 - Optional: dead pawns keep their gear on the body.
 

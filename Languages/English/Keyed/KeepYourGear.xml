@@ -8,6 +8,9 @@
   <KeepYourGear.KeepColonistsInventory>Keep colonists' inventory</KeepYourGear.KeepColonistsInventory>
   <KeepYourGear.KeepColonistsInventoryTip>Keep inventory items (including cargo on colony pack animals) with the player faction when they are downed. Stripping still works; kidnapping drops the gear where the pawn was grabbed.</KeepYourGear.KeepColonistsInventoryTip>
 
+  <KeepYourGear.KeepGearOfImprisonedColonists>Keep gear of imprisoned colonists</KeepYourGear.KeepGearOfImprisonedColonists>
+  <KeepYourGear.KeepGearOfImprisonedColonistsTip>Keep weapon and inventory with your own colonists when they are arrested and imprisoned - for example to end a mental break - instead of dropping their gear in the cell. They still have everything when released. An imprisoned colonist who breaks out will be armed.</KeepYourGear.KeepGearOfImprisonedColonistsTip>
+
   <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>Keep weapons and inventory of dead colonists</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonists>
   <KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>Keep weapons and inventory on the body when a colonist dies, instead of dropping them on the ground - independent of the two options above. Strip the body to take the gear; it is destroyed when the corpse rots away.</KeepYourGear.KeepWeaponsAndInventoryOfDeadColonistsTip>
 
